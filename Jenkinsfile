@@ -51,7 +51,7 @@ pipeline {
             }
         }
   
-    // Building Docker images
+    // Building Dockerimages
     stage('Building image') {
       steps{
         script {
